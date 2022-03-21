@@ -4,6 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-## 소개
+### 소개
 
-## 관심 분야
+
+### 관심 분야
