@@ -40,7 +40,7 @@
   
       ,"page1": {
           "title": "About Me",
-          "content": "This website is powered by fastpages 1. . a blogging platform that natively supports Jupyter notebooks in addition to other formats. &#8617; . |",
+          "content": "소개 . 관심 분야 .",
           "url": "https://chunbaecho.github.io/chorudgml/about/",
           "relUrl": "/about/",
           "date": ""
