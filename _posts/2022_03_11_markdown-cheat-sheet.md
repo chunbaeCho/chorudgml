@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-description: Markdown basics
+description: Basics Tutorial for Markdown.
 categories: [markdown]
 title: Markdown Cheat Sheet
 ---
