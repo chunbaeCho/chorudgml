@@ -717,6 +717,8 @@ window.onload = wrap_img;
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">sdot_1</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="s1">'일'</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">'방문자수'</span><span class="p">,</span> <span class="n">aggfunc</span><span class="o">=</span> <span class="s1">'count'</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="c1"># 5월 6일에 방문자수 최대치</span>
+<span class="c1"># 5월 8일에 가장 방문자수가 낮고 6일에 방문자수가 높음</span>
 </pre></div>
 
     </div>
@@ -1122,7 +1124,7 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"요일"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"방문자수"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">sdot_2</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"요일"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"방문자수"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">sdot_2</span><span class="p">)</span> <span class="c1"># 화요일에 방문자수가 가장 많음</span>
 </pre></div>
 
     </div>
@@ -1166,6 +1168,7 @@ window.onload = wrap_img;
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">sdot_2</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="s1">'일'</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">'방문자수'</span><span class="p">,</span> <span class="n">aggfunc</span><span class="o">=</span> <span class="s1">'count'</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="c1"># 5월 11일 방문자수, 코로나 확진자 수 비례</span>
 </pre></div>
 
     </div>
@@ -1571,7 +1574,7 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"요일"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"방문자수"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">sdot_3</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"요일"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"방문자수"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">sdot_3</span><span class="p">)</span> <span class="c1"># 목요일에 방문자수 가장 많음</span>
 </pre></div>
 
     </div>
@@ -2020,7 +2023,8 @@ window.onload = wrap_img;
 
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"요일"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"방문자수"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">sdot_4</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">barplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s2">"요일"</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s2">"방문자수"</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">sdot_4</span><span class="p">)</span> <span class="c1"># 금요일에 방문자수 가장 많음</span>
+<span class="c1"># 전체적으로 방문자수 평균이 고르게 나옴</span>
 </pre></div>
 
     </div>
@@ -2064,6 +2068,7 @@ window.onload = wrap_img;
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">pivot_table</span><span class="p">(</span><span class="n">data</span> <span class="o">=</span> <span class="n">sdot_4</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span> <span class="s1">'일'</span><span class="p">,</span> <span class="n">values</span><span class="o">=</span><span class="s1">'방문자수'</span><span class="p">,</span> <span class="n">aggfunc</span><span class="o">=</span> <span class="s1">'count'</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="c1"># 5월 27일 방문자수, 확진자수 비례함</span>
 </pre></div>
 
     </div>
